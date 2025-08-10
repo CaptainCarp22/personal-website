@@ -57,9 +57,12 @@ li { margin-bottom: 6px; }
     display: flex;
     margin: auto;
     align-items: center;
+    justify-content: safe center;
     flex-direction: column;
     font-family: CenturySchoolbook;
 }
+
+.column.main p { text-align: center; }
 
 .column.mid1 { width: 667px; }
 
