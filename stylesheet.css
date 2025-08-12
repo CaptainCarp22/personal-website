@@ -109,7 +109,7 @@ li { margin-bottom: 6px; }
     background-color: rgba(0,0,0,0.75);
 }
 
-#menu a {
+#menu a, #menu .current {
     display: block;
     color: white;
     padding: 10px;
@@ -119,7 +119,7 @@ li { margin-bottom: 6px; }
     text-decoration: none;
 }
 
-#menu a:hover { 
+#menu a:hover, #menu .current { 
     color: black;
     background-color: white;
 }
