@@ -11,9 +11,9 @@ hr {
     margin: 1.25em 0 0.8em 0;
 }
 
-a { color: rgb(110,0,0); }
+a { color: rgb(140,20,0); }
 
-a:hover { color: rgb(200,0,0); }
+a:hover { color: rgb(225,0,0); }
 
 @font-face {
     font-family: CenturySchoolbook;
@@ -67,6 +67,10 @@ li { margin-bottom: 6px; }
 .column.main p { text-align: center; }
 
 .column.mid1 { width: 667px; }
+
+.column.mid1 a { color: rgb(100,100,120); }
+
+.column.mid1 a:hover { color: darkred }
 
 .column.mid2 { width: 333px; color: rgb(110, 0, 0); }
 
